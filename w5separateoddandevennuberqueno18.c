@@ -18,13 +18,13 @@ int main(){
 		if(a[i]%2==0){
 	   even[t]=a[i];
 	   t++;
-    }}
+    }
     
-	if else{
+        else{
     	odd[k]=a[i];
     	k++;
 	}
-	 
+        }
 	 printf("array odd elements are\n");
 	 for(i=0;i<k;i++)
 	 printf("%d",odd[i]);
